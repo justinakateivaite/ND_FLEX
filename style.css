@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box; /*Borderis iskaiciuojamas i bloko ploti*/
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+.container {
+	width: 60%;
+	height: 100%;
+	margin: 50px auto; /*Centruoja bloką.*/
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+header {
+	background-color: #2AD3CE;
+	height: 60px;
+	margin-bottom: 5px;
+}
+
+main {
+	display: flex; 
+}
+
+h1 {
+	line-height: 60px;
+}
+
+main .left {
+	flex: 2;
+	text-align: center;
+	margin-right: 3px;
+}
+
+main .left .hero {
+	background-color: #BC96F2;
+	height: 120px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+main .left .sidebar {
+	background-color: #95C956;
+	height: 200px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+main .right {
+	flex: 3;
+}
+
+main .right .main-content {
+	background-color: #E8C435;
+	height: 200px;
+	margin-bottom: 5px;
+	padding: 0px 10px;
+	padding-top: 10px;
+}
+
+main .right .extra-content {
+	background-color: #82807A;
+	height: 120px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+section {
+	display: flex;
+}
+
+section .left {
+	flex: 2;
+}
+
+section .left .related-images {
+	background-color: #42B574;
+	height: 100px;
+	margin-bottom: 5px;
+	margin-right: 3px;
+	padding-top: 10px;
+}
+
+section .right {
+	flex: 1;
+}
+
+section .right .related-posts {
+	background-color: #F7D7EF;
+	height: 100px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: #F7A31D;
+	height: 60px;
+}
+
+footer h2 {
+	line-height: 60px;
+}
